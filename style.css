@@ -1,0 +1,105 @@
+/* Butun sahifa uchun fon va matn */
+body {
+  background-color: #000 !important;
+  color: rgb(162, 0, 255);
+}
+
+/* Matnlar uchun neon effekt */
+h1,
+h2,
+h3,
+p,
+.lead,
+.fw-light {
+  color: rgb(162, 0, 255);
+  text-shadow: 0 0 1px rgb(162, 0, 255);
+}
+
+/* Rasm uchun ramka va neon soyasi */
+.rounded-img {
+  width: 50%;
+  box-shadow: 0 0 15px rgb(162, 0, 255) !important;
+  padding: 0.1em;
+  margin-bottom: 1em;
+}
+
+/* Navbar uchun neon uslub */
+.custom-navbar {
+  background-color: #000 !important;
+  box-shadow: 0 0 15px rgb(162, 0, 255);
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+  color: rgb(162, 0, 255) !important;
+  text-shadow: 0 0 5px rgb(162, 0, 255);
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .navbar-brand:hover {
+  color: #fff !important;
+  text-shadow: 0 0 20px rgb(238, 238, 238), 0 0 40px rgb(230, 230, 230);
+}
+
+/* Neon tugma */
+.neon-button {
+  background-color: #000 !important;
+  color: rgb(162, 0, 255) !important;
+  border: 2px solid rgb(162, 0, 255);
+  padding: 0.5em 1.5em;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  text-shadow: 0 0 5px rgb(162, 0, 255);
+  box-shadow: 0 0 10px rgb(162, 0, 255), 0 0 20px rgb(162, 0, 255) inset;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.neon-button:hover {
+  color: #fff !important;
+  background-color: rgb(162, 0, 255);
+  box-shadow: 0 0 20px rgb(162, 0, 255), 0 0 40px rgb(162, 0, 255) inset;
+  text-shadow: none;
+}
+
+/* Card dizayni (kontaktlar uchun) */
+.card {
+  background-color: black !important;
+  border: 1px solid rgb(162, 0, 255);
+  border-radius: 1em;
+  box-shadow: 0 0 15px rgba(162, 0, 255, 0.4);
+  text-align: center;
+  transition: 0.3s ease;
+  color: rgb(162, 0, 255);
+}
+
+.card:hover {
+  box-shadow: 0 0 25px rgba(162, 0, 255, 0.8);
+  background-color: white !important;
+}
+
+/* Card ichidagi rasm uchun doira va soyalar */
+.card img {
+  width: 60%;
+  margin: 1em auto;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(162, 0, 255, 0.6);
+}
+
+/* Bootstrap .btn-secondary ni neon tugmaga o‘xshatish */
+.btn-secondary {
+  background-color: black !important;
+  color: rgb(162, 0, 255) !important;
+  border: 2px solid rgb(162, 0, 255);
+  text-shadow: 0 0 5px rgb(162, 0, 255);
+  box-shadow: 0 0 10px rgba(162, 0, 255, 0.5);
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: rgb(162, 0, 255);
+  color: white !important;
+  box-shadow: 0 0 25px rgba(162, 0, 255, 0.9);
+  text-shadow: none;
+}
